@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Praktikum PPB</string>
+    <string name="nama">Sutrisno</string>
+    <string name="nim">140411100060</string>
+    <string name="listModulPraktikum">List Modul Praktikum</string>
+    <string name="modul1">Modul 1 : Pengenalan lingkungan Android dan Struktur Dasar </string>
+    <string name="modul2">Modul 2 : </string>
+    <string name="modul3">Modul 3 : </string>
+    <string name="modul4">Modul 4 : </string>
+    <string name="modul5">Modul 5 : </string>
+    <string name="modul6">Modul 6 : </string>
+    <string name="modul7">Modul 7 : </string>
+    <string name="modul8">Modul 8 : </string>
+    <string name="hello">Hello....!!!</string>
+</resources>
