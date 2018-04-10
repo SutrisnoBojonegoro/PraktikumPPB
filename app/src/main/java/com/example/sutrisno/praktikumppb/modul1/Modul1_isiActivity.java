@@ -5,11 +5,11 @@ import android.os.Bundle;
 
 import com.example.sutrisno.praktikumppb.R;
 
-public class IsiModul1_Activity extends AppCompatActivity {
+public class Modul1_isiActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_isi_modul1_);
+        setContentView(R.layout.activity_modul1_isi);
     }
 }

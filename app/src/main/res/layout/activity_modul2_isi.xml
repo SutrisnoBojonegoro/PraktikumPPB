@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorOrange"
+    tools:context="com.example.sutrisno.praktikumppb.modul2.Modul2_isiActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contoh-Contoh Komponen GUI"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorGreen"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="1. Text Control"
+                android:textSize="20sp"
+                android:textColor="@color/colorGreen"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20sp"
+                android:text="a). TextView"
+                android:textSize="20sp"
+                android:textColor="@color/colorGreen"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:text="Hello World !"
+                android:textSize="20sp"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20sp"
+                android:text="b). EditText"
+                android:textSize="20sp"
+                android:textColor="@color/colorGreen"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:hint="username"
+                android:textAlignment="center"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft ="30dp"
+                android:layout_marginRight="30dp"
+                android:hint="Password"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20sp"
+                android:text="c). AutoComplateTextView"
+                android:textSize="20sp"
+                android:textColor="@color/colorGreen"/>
+
+            <AutoCompleteTextView
+                android:id="@+id/autoComplateTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft ="30dp"
+                android:layout_marginRight="30dp"
+                android:hint="Masukkan Agama yang Anda pilih"
+                android:ems="10"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20sp"
+                android:text="d). MultiAutoComplateTextView"
+                android:textSize="20sp"
+                android:textColor="@color/colorGreen"/>
+            <MultiAutoCompleteTextView
+                android:id="@+id/multiaoutocomplatetextview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft ="30dp"
+                android:layout_marginRight="30dp"
+                android:hint="Masukkan nama buah-buahan"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="2. Button"
+                android:textSize="20sp"
+                android:textColor="@color/colorGreen"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20sp"
+                android:text="a). Basic Button"
+                android:textSize="20sp"
+                android:textColor="@color/colorGreen"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/colorGreen"
+                android:text="Klik Button"
+                android:padding="20sp"
+                android:textColor="@color/colorWhite"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20sp"
+                android:text="b). Image Button"
+                android:textSize="20sp"
+                android:textColor="@color/colorGreen"/>
+
+            <Button
+                android:id="@+id/image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:src="@mipmap/ic_lampirkan" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20sp"
+                android:text="c). Toggle Button"
+                android:textSize="20sp"
+                android:textColor="@color/colorGreen"/>
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="3. CheckBox"
+                android:textSize="20sp"
+                android:textColor="@color/colorGreen"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Windows"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Mac OS"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Linux OS"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="4. Radio Button"
+                android:textSize="20sp"
+                android:textColor="@color/colorGreen"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="Laki-Laki"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="Perempuan"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="5. List"
+                android:textSize="20sp"
+                android:textColor="@color/colorGreen"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                >
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/listView"
+                    ></ListView>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="6. Grid"
+                android:textSize="20sp"
+                android:textColor="@color/colorGreen"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+                <GridView
+                    android:id="@+id/gridLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </GridView>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="7. Date and Time"
+                android:textSize="20sp"
+                android:textColor="@color/colorGreen"/>
+
+            <DatePicker
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                >
+
+            </DatePicker>
+
+            <TimePicker
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp">
+
+            </TimePicker>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

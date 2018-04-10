@@ -7,6 +7,18 @@
     android:background="@color/colorOrange"
     tools:context="com.example.sutrisno.praktikumppb.modul1.Modul1_Activity">
 
+    <TextView
+        android:id="@+id/textNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silahkan Anda klik button dibawah ini !(untuk melihat biodata saya)"
+        android:textColor="@color/colorGreen"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="350dp"
+        android:textAlignment="center"
+        />
+
     <Button
         android:id="@+id/btn_pdmodul1"
         android:layout_width="wrap_content"

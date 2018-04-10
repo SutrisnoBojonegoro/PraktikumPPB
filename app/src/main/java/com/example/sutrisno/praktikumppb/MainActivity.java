@@ -6,7 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.sutrisno.praktikumppb.Modul3.Modul3_Activity;
 import com.example.sutrisno.praktikumppb.modul1.Modul1_Activity;
+import com.example.sutrisno.praktikumppb.modul2.Modul2_Activity;
 
 public class MainActivity extends AppCompatActivity {
     Button buttonModul1, buttonModul2, buttonModul3, buttonModul4,
@@ -27,6 +29,32 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //perintah setelah kejadian klik
                 Intent intent = new Intent(MainActivity.this, Modul1_Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        buttonModul2 = (Button) findViewById(R.id.btnmodul2);
+
+
+        //Method utk klik tombol modul 1
+        buttonModul2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //perintah setelah kejadian klik
+                Intent intent = new Intent(MainActivity.this, Modul2_Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        buttonModul3 = (Button) findViewById(R.id.btnmodul3);
+
+
+        //Method utk klik tombol modul 1
+        buttonModul3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //perintah setelah kejadian klik
+                Intent intent = new Intent(MainActivity.this, Modul3_Activity.class);
                 startActivity(intent);
             }
         });

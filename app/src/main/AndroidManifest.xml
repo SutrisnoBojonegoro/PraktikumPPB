@@ -17,7 +17,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".modul1.Modul1_Activity" />
-        <activity android:name=".modul1.IsiModul1_Activity"></activity>
+        <activity android:name=".modul2.Modul2_Activity" />
+        <activity android:name=".modul2.Modul2_isiActivity" />
+        <activity android:name=".modul1.Modul1_isiActivity" />
+        <activity android:name=".Modul3.Modul3_Activity" />
+        <activity android:name=".Modul3.Modul3_isiActivity"></activity>
     </application>
 
 </manifest>

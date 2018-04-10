@@ -69,7 +69,6 @@
                     android:text="@string/modul1"
                     android:textColor="@color/colorWhite"
                     android:background="@color/colorGreen"
-
                     />
 
                 <Button

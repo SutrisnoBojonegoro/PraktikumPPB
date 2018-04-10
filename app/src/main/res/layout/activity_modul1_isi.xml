@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/colorOrange"
     android:orientation="vertical"
-    tools:context="com.example.sutrisno.praktikumppb.modul1.IsiModul1_Activity">
-
+    tools:context="com.example.sutrisno.praktikumppb.modul1.Modul1_isiActivity">
 
     <TextView
         android:id="@+id/textNama"
@@ -28,4 +27,5 @@
         android:textColor="@color/colorGreen"
         android:textSize="25dp"
         android:layout_gravity="center"/>
+
 </LinearLayout>
