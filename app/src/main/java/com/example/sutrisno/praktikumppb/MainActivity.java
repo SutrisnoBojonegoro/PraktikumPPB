@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.sutrisno.praktikumppb.Modul3.Modul3_Activity;
+import com.example.sutrisno.praktikumppb.Modul4.Modul4_Activity;
 import com.example.sutrisno.praktikumppb.modul1.Modul1_Activity;
 import com.example.sutrisno.praktikumppb.modul2.Modul2_Activity;
 
@@ -55,6 +56,20 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //perintah setelah kejadian klik
                 Intent intent = new Intent(MainActivity.this, Modul3_Activity.class);
+                startActivity(intent);
+            }
+        });
+
+
+        buttonModul4 = (Button) findViewById(R.id.btnmodul4);
+
+
+        //Method utk klik tombol modul 1
+        buttonModul4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //perintah setelah kejadian klik
+                Intent intent = new Intent(MainActivity.this, Modul4_Activity.class);
                 startActivity(intent);
             }
         });
